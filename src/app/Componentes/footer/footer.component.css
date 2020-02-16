@@ -2,5 +2,6 @@
     height: 8%;
     width: 100%;
     background-color: #595756;
-    position: absolute;
-}
+    bottom: 0;
+    position: fixed;
+}   

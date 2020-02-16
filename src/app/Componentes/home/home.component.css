@@ -1,3 +1,18 @@
-.home{
-    background-color: red;
+.carruselwn{
+    height: 30% !important;
+    width: 50% !important;
+    margin-top: 4%;
+    margin-left: 15%;
+    float: left;
+}
+
+.imagencarrusel{
+    height: 300px !important;
+    width: 800px !important;
+}
+
+.mapa{
+    height: 30%;
+    width: 30;
+    margin-top: 4%;
 }
