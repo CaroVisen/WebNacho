@@ -1,0 +1,39 @@
+.navbarwn{
+    height: 10%;
+    width: 100%;
+    background-color: #595756 !important;
+    position: relative;
+    color: honeydew !important;
+}
+
+.prod{
+    margin-left: 15%;
+    margin-right: 5%;
+    
+    background-color: hotpink;
+}
+
+.coti{
+    margin-left: 5%;
+    margin-right: 5%;
+   
+    background-color: hotpink;
+}
+
+.logo{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    background-color: hotpink;
+}
+.nos{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: hotpink;
+}
+.cont{
+    margin-left: 5%;
+    margin-right: 15%;
+    
+    background-color: hotpink;
+}
