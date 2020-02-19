@@ -18,7 +18,7 @@
 }
 
 .jumbotronwn{
-    height: 30% !important;
+    height: 15% !important;
     width: 70% !important;
     margin-top: 4%;
     margin-left: 15%;
@@ -26,4 +26,18 @@
 
 .conocenosmaswn{
     margin-left: 80%;
+}
+
+.calsificacionproductoswn{
+    margin-top: 3%;
+    margin-left: 13% !important;
+    margin-bottom: 5%;
+}
+
+.fotoclasificacionproductoswn{
+    margin-left: -13% !important;
+}
+
+.row{   
+    margin-left: 4% !important;
 }
