@@ -31,23 +31,36 @@
       <a class="btn btn-dark btn-lg conocenosmaswn" routerLink="/nosotros" role="button">Conocenos más</a>
     </div>
   </div>
-
-  <div class="calsificacionproductoswn">
-    <h1 style="margin-left: 35%;">Productos</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm fotoclasificacionproductoswn" >
-          <img src="../../../assets/clasifproductos.jpg" routerLink="/productos">
-        </div>
-        <div class="col-sm">
-          <img src="../../../assets/clasifproductos.jpg" routerLink="/productos">
-        </div>
-        <div class="col-sm">
-          <img src="../../../assets/clasifproductos.jpg" routerLink="/productos">
-        </div>
-      </div>
-    </div>
+<!--https://freefrontend.com/css-cards/-->
+  <div>
+    <h1 style="text-align: center; margin-bottom: 5%;">Productos</h1>
   </div>
+  <div class="container">
+      <div class="cards-list">
+          <div class="card 1" (click)="filtraProd1()" routerLink="/productos">
+            <div class="card_image"> <img src="https://www.tiomusa.com.ar/imagenes/archivos/2017-10/15830-heladera-patrick-hpk135b01-1.png" /> </div>
+            <div class="card_title">
+              <p>Tipo Producto</p>
+            </div>
+          </div>
 
-
+            <div class="card 2" (click)="filtraProd2()" routerLink="/productos">
+            <div class="card_image">
+              <img src="https://cdn.blackmilkclothing.com/media/wysiwyg/Wallpapers/PhoneWallpapers_FloralCoral.jpg" />
+              </div>
+            <div class="card_title">
+              <p>Tipo Producto</p>
+            </div>
+          </div>
+          
+          <div class="card 3" (click)="filtraProd3()" routerLink="/productos">
+            <div class="card_image">
+              <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
+            </div>
+            <div class="card_title">
+              <p>Tipo Producto</p>
+            </div>
+          </div>
+          </div>
+  </div>
 </div>

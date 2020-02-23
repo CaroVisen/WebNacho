@@ -13,5 +13,18 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  
+  filtraProd1(){
+    console.log("filtra productos tipo 1");
+    
+  }
+
+  filtraProd2(){
+    console.log("filtra productos tipo 2");
+
+  }
+
+  filtraProd3(){
+    console.log("filtra productos tipo 3");
+
+  }
 }

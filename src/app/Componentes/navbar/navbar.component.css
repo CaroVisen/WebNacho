@@ -2,12 +2,13 @@
     height: 10%;
     width: 100%;
     background-color: #595756 !important;
-    position: relative;
+    position: fixed;
     color: honeydew !important;
+    z-index: 100;
 }
 
 .prod{
-    margin-left: 15%;
+    margin-left: 10%;
     margin-right: 5%;
     color: whitesmoke;
 }
