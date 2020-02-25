@@ -12,6 +12,7 @@ export class CotizacionComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
   }
 
   filtraProd1(){

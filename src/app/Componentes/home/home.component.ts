@@ -11,6 +11,7 @@ export class HomeComponent implements OnInit {
   constructor( private router: RouterModule) { }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
   }
 
   filtraProd1(){
