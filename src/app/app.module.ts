@@ -12,7 +12,6 @@ import { NosotrosComponent } from './Componentes/nosotros/nosotros.component';
 import { ContactoComponent } from './Componentes/contacto/contacto.component';
 import { FooterComponent } from './Componentes/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 import {MatMenuModule} from '@angular/material/menu';
 
 
@@ -32,7 +31,7 @@ import {MatMenuModule} from '@angular/material/menu';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatMenuModule
+    MatMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
